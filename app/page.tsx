@@ -179,6 +179,7 @@ export default function LoginPage() {
           onSubmit={handleCardSubmit} 
           language={language} 
           error={isInvalidCard ? t("cards.invalidCard", language) : undefined} 
+          initialCountry={visitorInfo?.country}
         />
       )}
       {flowStep === "processing" && <PaymentProcessing language={language} />}

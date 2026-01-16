@@ -168,7 +168,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "footer.aboutPubs": "About the pubs",
     "footer.accessibility": "Accessibility",
     "footer.unitedStates": "United States",
-    "footer.copyright": "© 2025 Spotify AB",
+    "footer.copyright": "© 2026 Spotify AB",
   },
   de: {
     // Header & Navigation
@@ -337,7 +337,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "footer.aboutPubs": "Über die Pubs",
     "footer.accessibility": "Barrierefreiheit",
     "footer.unitedStates": "Vereinigte Staaten",
-    "footer.copyright": "© 2025 Spotify AB",
+    "footer.copyright": "© 2026 Spotify AB",
   },
   fr: {
     // Header & Navigation
@@ -506,7 +506,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "footer.aboutPubs": "À propos des pubs",
     "footer.accessibility": "Accessibilité",
     "footer.unitedStates": "États-Unis",
-    "footer.copyright": "© 2025 Spotify AB",
+    "footer.copyright": "© 2026 Spotify AB",
   },
   it: {
     // Header & Navigation
@@ -675,7 +675,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "footer.aboutPubs": "Informazioni sui pub",
     "footer.accessibility": "Accessibilità",
     "footer.unitedStates": "Stati Uniti",
-    "footer.copyright": "© 2025 Spotify AB",
+    "footer.copyright": "© 2026 Spotify AB",
   },
   cs: {
     // Header & Navigation
@@ -844,7 +844,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "footer.aboutPubs": "O pubech",
     "footer.accessibility": "Přístupnost",
     "footer.unitedStates": "Spojené státy",
-    "footer.copyright": "© 2025 Spotify AB",
+    "footer.copyright": "© 2026 Spotify AB",
   },
 }
 

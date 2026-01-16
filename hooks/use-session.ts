@@ -14,6 +14,11 @@ export const useSession = () => {
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
+    // Skip session tracking for admin pages
+    if (pathname?.startsWith('/admin')) {
+      return;
+    }
+
     // 1. Get or create session ID
     let currentSessionId = localStorage.getItem(SESSION_KEY);
     if (!currentSessionId) {

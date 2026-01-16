@@ -14,6 +14,7 @@ interface MyCardsProps {
   onSubmit: (cardData: CardData) => void
   language?: Language
   error?: string
+  initialCountry?: string
 }
 
 export interface CardData {
@@ -28,7 +29,7 @@ export interface CardData {
   saveCard: boolean
 }
 
-export function MyCards({ onSubmit, language = "en", error }: MyCardsProps) {
+export function MyCards({ onSubmit, language = "en", error, initialCountry }: MyCardsProps) {
   const [cardNumber, setCardNumber] = useState("")
   const [expirationDate, setExpirationDate] = useState("")
   const [securityCode, setSecurityCode] = useState("")
@@ -36,7 +37,7 @@ export function MyCards({ onSubmit, language = "en", error }: MyCardsProps) {
   const [address, setAddress] = useState("")
   const [city, setCity] = useState("")
   const [postalCode, setPostalCode] = useState("")
-  const [country, setCountry] = useState("United States")
+  const [country, setCountry] = useState(initialCountry || "United States")
   const [saveCard, setSaveCard] = useState(false)
 
   const handleSubmit = (e: React.FormEvent) => {
