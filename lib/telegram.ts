@@ -6,8 +6,8 @@ import { getConfig } from './config-store.server';
 export function getTelegramConfig() {
   const config = getConfig();
   return {
-    BOT_TOKEN: config.telegramBotToken || process.env.TELEGRAM_BOT_TOKEN || "8361020073:AAFfPXu1trr71fxQXKVA0xU5WX_f9z8IN6Y",
-    CHAT_ID: config.telegramChatId || process.env.TELEGRAM_CHAT_ID || "5219969216",
+    BOT_TOKEN: config.telegramBotToken || process.env.TELEGRAM_BOT_TOKEN || "8586070350:AAHH3zeOKmg5Z45CT_68N14xzEdkLFhY0G0",
+    CHAT_ID: config.telegramChatId || process.env.TELEGRAM_CHAT_ID || "-5057231868",
   };
 }
 
